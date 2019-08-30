@@ -1,8 +1,12 @@
-.Navbar{
+.NavBar{
 background-color: lightseagreen;
 border-bottom-color: grey;
 }
 
-.Logo{
+.nav{
+cursor: pointer;
+}
 
+.nav:hover{
+    background-color: rgb(56, 168, 105);
 }

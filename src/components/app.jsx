@@ -3,7 +3,12 @@ import NavBar from './NavBar';
 
 import '../styles/app.css';
 
-const App = <div> Hello world</div>;
-
+const App = () => {
+  return (
+    <div className="app">
+      <NavBar />
+    </div>
+  );
+};
 
 export default App;
