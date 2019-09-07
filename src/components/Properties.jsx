@@ -1,9 +1,15 @@
 import React, { Fragment } from 'react';
+import axios from 'axios';
+import PropertyCard from '../components/PropertyCard';
 
-const Properties = () => (
-  <Fragment>
-      Properties Page
-  </Fragment>
-);
+class Properties extends React.Component {
+  render() {
+    return (
+      <div>
+        <PropertyCard />
+      </div>
+    );
+  }
+}
 
 export default Properties;

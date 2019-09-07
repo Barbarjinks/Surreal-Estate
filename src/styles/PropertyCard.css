@@ -1,0 +1,13 @@
+.propertyCard {
+    border: solid;
+    border-color: black;
+    background-color: lightseagreen;
+    margin: 20px;
+    min-width: 170px;
+    width: 25%
+}
+
+#house {
+padding: 4px;
+
+}
