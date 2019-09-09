@@ -8,3 +8,12 @@
     padding: 0.5rem;
     box-sizing: border-box;
 }
+
+.sidebar {   height: 600px;
+width: 175px;
+float: left;
+color: lightseagreen;
+background-color: black;
+text-align: center;
+}
+s
