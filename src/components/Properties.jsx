@@ -2,6 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import PropertyCard from '../components/PropertyCard';
 import { Link } from 'react-router-dom';
+import '../styles/Properties.css';
 
 class Properties extends React.Component {
   constructor(props) {
@@ -29,10 +30,14 @@ class Properties extends React.Component {
   render() {
     return (
       <div className="properties">
-        <div className="sidebar">
+        <div id="sidebar">
+          <h2> Filter By:</h2>
           <Link to={'/?query={"city": "Manchester"}'}>Manchester</Link>
+          <br />
           <Link to={'/?query={"city": "Leeds"}'}>Leeds</Link>
+          <br />
           <Link to={'/?query={"city": "Sheffield"}'}>Sheffield</Link>
+          <br />
           <Link to={'/?query={"city": "Liverpool"}'}>Liverpool</Link>
         </div>
         {this.state.properties.map(property => (

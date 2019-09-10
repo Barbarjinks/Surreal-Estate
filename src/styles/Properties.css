@@ -1,19 +1,18 @@
-.properties{
+.properties {
     padding: 0.5rem;
 }
 
-.col {
+.properties .col {
     display: inline-block;
     width: 33.33%;
     padding: 0.5rem;
     box-sizing: border-box;
 }
 
-.sidebar {   height: 600px;
+#sidebar {  
+height: 600px;
 width: 175px;
 float: left;
-color: lightseagreen;
-background-color: black;
+background-color: lightseagreen;
 text-align: center;
 }
-s
